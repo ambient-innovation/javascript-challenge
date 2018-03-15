@@ -26,18 +26,10 @@ shared fridges. Below you find a description of the required features:
 
 - After I bought groceries in the supermarket, I want to add each of the purchased items to my personal list of 
 groceries, that are currently in the fridge. For each item I want to enter a name (e.g. "bread", "cheese", "butter"),
-in which fridge I put it ("Fridge 1" or "Fridge 2"), and optionally the expiration date. When I enter an item and 
-another item with the same name already exists in the list, I do not want to create an additional entry. Instead I want
-to increase the amount of this item (e.g. "bread (2x)").
+and in which fridge I put it ("Fridge 1" or "Fridge 2"). When I enter an item and another item with the same name already exists in the list, I do not want to create an additional entry. Instead I want to increase the amount of this item (e.g. "bread (2x)").
 
 - I want to see a list of all of my items that are currently in either of the fridges. For each item I want to see the 
-name. If the item is expired, it should be marked in some way.
-
-- I want to be able to click on each item in the list to see the remaining details: In which of the two fridges the item
-is, when it expires, and the amount of this item (e.g. "butter (2x)"). 
-
-- I want to be able to filter the list to show either all items, only expired items, only items in fridge 1, or only
-items in fridge 2.
+name.
 
 - I want to be able to mark an item as "used up" after I have used all of it. If I have more than one of this item, 
 the amount should be decreased. If I only have one, the item should be deleted from the list. 
